@@ -1,0 +1,49 @@
+html {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url(/shop.svg) no-repeat;
+  background-size: 40%;
+  background-position: bottom left;
+  min-height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.remove-btn {
+  margin-right: 0.5rem;
+}
+
+.fade-enter {
+  opacity: 0.01;
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 1000ms ease-in;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit-active {
+  opacity: 0.01;
+  transition: opacity 1000ms ease-in;
+}
+
+footer {
+  background-color: #292c2f;
+  bottom: 0;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  display: block;
+  padding: 0 50px 10px 70px;
+  margin-top: 100px;
+}

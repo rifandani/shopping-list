@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb://rifandani:rifandani@cluster0-shard-00-00-a7b7z.mongodb.net:27017/shop-list?authSource=admin&replicaSet=Cluster0-shard-0&readPreference=primaryPreferred&appname=MongoDB%20Compass&ssl=true",
+  "jwtSecret": "rifandani"
+}
